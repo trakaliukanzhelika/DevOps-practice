@@ -30,7 +30,7 @@ jobs:
         with:
           name: coverage-report
           path: coverage_report.txt
-build:
+  build:
     needs: test
     runs-on: ubuntu-latest
     steps:
